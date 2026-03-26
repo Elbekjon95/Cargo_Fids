@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 # Airport Cargo FIDS (Flight Information Display System)
 
 Toshkent xalqaro aeroporti uchun parvozlar va yuk (cargo) ma'lumotlari onlayn jadvali.
@@ -29,4 +26,3 @@ Ushbu loyiha React 19, Vite va Tailwind CSS texnologiyalari yordamida yaratilgan
 
 ---
 © 2026 Tashkent International Airport. All rights reserved.
->>>>>>> 0e17120 (Update README: remove Google AI Studio branding and add project description)
