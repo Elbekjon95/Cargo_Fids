@@ -1,0 +1,5 @@
+{
+  "name": "Tashkent Airport Board",
+  "description": "Real-time flight departures and arrivals for Tashkent International Airport (TAS).",
+  "requestFramePermissions": []
+}
