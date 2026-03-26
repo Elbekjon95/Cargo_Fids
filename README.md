@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Airport Cargo FIDS (Flight Information Display System)
 
-# Run and deploy your AI Studio app
+Toshkent xalqaro aeroporti uchun parvozlar va yuk (cargo) ma'lumotlari onlayn jadvali.
 
-This contains everything you need to run your app locally.
+## Loyiha haqida
+Ushbu loyiha React 19, Vite va Tailwind CSS texnologiyalari yordamida yaratilgan bo'lib, aeroport xizmatlari uchun real vaqt rejimida ma'lumotlarni taqdim etadi.
 
-View your app in AI Studio: https://ai.studio/apps/4657cf51-3046-48d3-be14-f2573152c61a
+## Xususiyatlari
+- ✨ Real vaqt rejimida uchib ketish va uchib kelish jadvali.
+- 📦 Yuk (Cargo) va pochta (Mail) vazni haqida batafsil ma'lumot.
+- 🗺 FlightRadar uslubidagi interaktiv xarita.
+- 📱 Mobil qurilmalar uchun moslashuvchan (Responsive) dizayn.
 
-## Run Locally
+## Mahalliy ishga tushirish (Run Locally)
 
-**Prerequisites:**  Node.js
+**Talablar:** Node.js (v18+)
 
+1. Bog'liqliklarni o'rnating:
+   ```bash
+   npm install
+   ```
+2. Loyihani ishga tushiring:
+   ```bash
+   npm run dev
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+© 2026 Tashkent International Airport. All rights reserved.
