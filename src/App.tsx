@@ -125,15 +125,10 @@ export default function App() {
           <div className="flex items-center justify-between w-full md:w-auto">
             <div className="flex items-center gap-2">
               <div 
-                className="h-6 md:h-8 flex items-center gap-2 bg-white/5 px-2 rounded-md border border-white/10 cursor-pointer hover:bg-white/10 transition-colors"
+                className="h-10 md:h-12 flex items-center gap-2 bg-white/5 pr-4 rounded-md border border-white/10 cursor-pointer hover:bg-white/10 transition-colors overflow-hidden"
                 onClick={() => navigate('/')}
               >
-                <div className="flex flex-col leading-none">
-                  <span className="text-[10px] md:text-[12px] font-black text-airport-gold uppercase tracking-tighter">UZBEKISTAN</span>
-                  <span className="text-[12px] md:text-[16px] font-black text-white uppercase tracking-tighter">Airports</span>
-                </div>
-                <div className="w-px h-6 bg-white/20" />
-                <span className="text-[10px] md:text-[14px] font-bold text-gray-400 uppercase tracking-widest">TAS</span>
+                <img src="/header_logo.png" alt="Uzbekistan Airports" className="h-full w-auto object-contain" />
               </div>
             </div>
             
@@ -725,11 +720,11 @@ export default function App() {
       <footer className="bg-airport-navy text-white py-20 px-10">
         <div className="max-w-full mx-auto flex flex-col md:flex-row justify-between items-center gap-16">
           <div className="flex items-center gap-6">
-            <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-lg">
-              <Plane size={32} className="text-airport-navy rotate-45" />
+            <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
+              <img src="/header_logo.png" alt="Uzbekistan Airports" className="w-full h-full object-contain p-2" />
             </div>
             <div>
-              <span className="font-black uppercase tracking-tighter text-3xl block">Tashkent <span className="text-airport-gold">International</span></span>
+              <span className="font-black uppercase tracking-tighter text-3xl block">Uzbekistan <span className="text-airport-gold">Airports</span></span>
               <span className="text-[12px] font-bold text-gray-400 uppercase tracking-[0.3em]">Official Information Board</span>
             </div>
           </div>
