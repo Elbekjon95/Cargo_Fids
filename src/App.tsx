@@ -128,7 +128,7 @@ export default function App() {
                 className="h-10 md:h-12 flex items-center gap-2 bg-white/5 pr-4 rounded-md border border-white/10 cursor-pointer hover:bg-white/10 transition-colors overflow-hidden"
                 onClick={() => navigate('/')}
               >
-                <img src="/header_logo.png" alt="Uzbekistan Airports" className="h-full w-auto object-contain" />
+                <img src="header_logo.png" alt="Uzbekistan Airports" className="h-full w-auto object-contain" />
               </div>
             </div>
             
